@@ -1,0 +1,122 @@
+{
+	"users": [
+		{
+			"UserID": 1,
+			"Name": "Joe Smith",
+			"Posts": [101, 102],
+			"Comments": [201, 202, 203]
+		},
+		{
+			"UserID": 2,
+			"Name": "John Williams",
+			"Posts": [103, 104],
+			"Comments": [204, 205, 206]
+		},
+		{
+			"UserID": 3,
+			"Name": "Jane Doe",
+			"Posts": [105, 106],
+			"Comments": [207, 208, 209]
+		}
+	],
+	"posts": [
+		{
+			"PostID": 101,
+			"Title": "Post Title 101",
+			"Body": "Post body content for post 101",
+			"Comments": [207],
+			"UserID": 1
+		},
+		{
+			"PostID": 102,
+			"Title": "Post Title 102",
+			"Body": "Post body content for post 102",
+			"Comments": [],
+			"UserID": 1
+		},
+		{
+			"PostID": 103,
+			"Title": "Post Title 103",
+			"Body": "Post body content for post 103",
+			"Comments": [201, 208],
+			"UserID": 2
+		},
+		{
+			"PostID": 104,
+			"Title": "Post Title 104",
+			"Body": "Post body content for post 104",
+			"Comments": [209],
+			"UserID": 2
+		},
+		{
+			"PostID": 105,
+			"Title": "Post Title 105",
+			"Body": "Post body content for post 105",
+			"Comments": [203, 204, 205, 206],
+			"UserID": 3
+		},
+		{
+			"PostID": 106,
+			"Title": "Post Title 106",
+			"Body": "Post body content for post 106",
+			"Comments": [202],
+			"UserID": 3
+		}
+	],
+	"comments": [
+		{
+			"CommentID": 201,
+			"PostID": 103,
+			"UserID": 1,
+			"Text": "This is a comment by user 1 on post 103"
+		},
+		{
+			"CommentID": 202,
+			"PostID": 106,
+			"UserID": 1,
+			"Text": "This is a comment by user 1 on post 106"
+		},
+		{
+			"CommentID": 203,
+			"PostID": 105,
+			"UserID": 1,
+			"Text": "This is a comment by user 1 on post 105"
+		},
+		{
+			"CommentID": 204,
+			"PostID": 105,
+			"UserID": 2,
+			"Text": "This is a comment by user 2 on post 105"
+		},
+		{
+			"CommentID": 205,
+			"PostID": 105,
+			"UserID": 2,
+			"Text": "This is a comment by user 2 on post 105"
+		},
+		{
+			"CommentID": 206,
+			"PostID": 105,
+			"UserID": 2,
+			"Text": "This is a comment by user 2 on post 105"
+		},
+		{
+			"CommentID": 207,
+			"PostID": 101,
+			"UserID": 3,
+			"Text": "This is a comment by user 3 on post 101"
+		},
+		{
+			"CommentID": 208,
+			"PostID": 103,
+			"UserID": 3,
+			"Text": "This is a comment by user 3 on post 103"
+		},
+		{
+			"CommentID": 209,
+			"PostID": 104,
+			"UserID": 3,
+			"Text": "This is a comment by user 3 on post 104"
+		}
+	]
+}
